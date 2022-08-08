@@ -1,0 +1,40 @@
+.job-box{
+    background-color: white;
+    border: 1px solid rgb(236, 229, 229);
+    width: 300px;
+    margin-left: 60px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 20px;
+}
+
+.industry{
+    color: #747474;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.box b{
+    font-size: 50px;
+}
+
+.box{
+    text-align: center;
+    background-color: #CCE2EE;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.published{
+    color: #A7A7A7
+}
+
+.dot{
+    padding: 0px;
+    width: 14px;
+    margin-right: 5px;
+    color: black;
+}

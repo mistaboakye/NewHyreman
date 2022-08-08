@@ -4,14 +4,14 @@ import './styles.css';
 import NotificationIcon from '../../assets/icons/notification.svg';
 import SettingsIcon from '../../assets/icons/settings.svg';
 
-function DashboardHeader ({ btnText, onClick }) {
+function DashboardHeader ({ btnText, onClick, title}) {
     return(
         <div className='dashbord-header-container'>
-            <h4>RESUME BANK</h4>
+            <h4>{ title }</h4>
 
             <div className='dashbord-header-right'>
                 {btnText && 
-                    <button className='dashbord-header-btn' onClick={onClick}>
+                    <button className='dashbord-header-btn primary' onClick={onClick}>
                         Create  
                     </button>
                 }

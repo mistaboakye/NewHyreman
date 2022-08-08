@@ -7,25 +7,26 @@ import sidebar_menu from './constants/sidebar-menu';
 import './App.css';
 import Orders from './pages/Orders';
 import ResumeBank from './pages/Resume';
+import Job from "./pages/Jobs/job";
 
 function App () {
-  return(
+  return (
     <Router>
-      <div className='dashboard-container'>
+      <div className="dashboard-container">
         <SideBar menu={sidebar_menu} />
-          
-          <div className='dashboard-body'>
-              <Routes>
-                  <Route path="*" element={<div></div>} />
-                  <Route exact path="/" element={<ResumeBank />} />
-                  <Route exact path="/orders" element={< Orders/>} />
-                  <Route exact path="/locations" element={<div></div>} />
-                  <Route exact path="/profile" element={<div></div>} />
-              </Routes>
-          </div>
+
+        <div className="dashboard-body">
+          <Routes>
+            <Route path="*" element={<div></div>} />
+            <Route exact path="/" element={<div></div>} />
+            <Route exact path="/job" element={<Job/>} />
+            <Route exact path="/candidate" element={<Orders/>} />
+            <Route exact path="/resume-bank" element={<ResumeBank />} />
+          </Routes>
+        </div>
       </div>
     </Router>
-  )
+  );
 }
 
 export default App;

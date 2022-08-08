@@ -1,7 +1,7 @@
 import DashboardIcon from '../assets/icons/dashboard.svg';
-import ShippingIcon from '../assets/icons/shipping.svg';
-import ProductIcon from '../assets/icons/product.svg';
-import UserIcon from '../assets/icons/user.svg';
+import job from '../assets/icons/job.svg';
+import candidate from '../assets/icons/candidate.svg';
+import resume from "../assets/icons/bank.svg";
 
 const sidebar_menu = [
     {
@@ -12,21 +12,21 @@ const sidebar_menu = [
     },
     {
         id: 2,
-        icon: ProductIcon,
-        path: '/orders',
-        title: 'Orders',
+        icon: job,
+        path: '/job',
+        title: 'Jobs',
     },
     {
         id: 3,
-        icon: ShippingIcon,
-        path: '/products',
-        title: 'Products',
+        icon: candidate,
+        path: '/candidate',
+        title: 'Candidates',
     },
     {
         id: 4,
-        icon: UserIcon,
-        path: '/profile',
-        title: 'My account',
+        icon: resume,
+        path: '/resume-bank',
+        title: 'Resume Bank',
     }
 ]
 

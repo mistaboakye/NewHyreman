@@ -44,8 +44,7 @@ function Orders () {
 
     return(
         <div className='dashboard-content'>
-            <DashboardHeader
-                btnText="New Order" />
+            <DashboardHeader title={'CANDIDATES'}/>
 
             <div className='dashboard-content-container'>
                 <div className='dashboard-content-header'>

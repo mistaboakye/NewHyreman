@@ -2,20 +2,107 @@
     display: flex;
     flex-direction: row;
 }
+
 .dashboard-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     background-color: #F0F2F5;
 }
+
 .box-container{
     margin-left: 80px;
     margin-right: 15px
 }
+
+.resume-found{
+
+}
+
+.pagination{
+    margin-left: 210px;
+    color: black;
+}
+
+.pagination .item{
+    color: black;
+}
+
 .filter{
     background-color: #fdfdfd;
-        margin-right: 40px
+    margin-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
 }
+
+form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .result{
-    background-color: #fdfdfd;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(235, 229, 229);
+    margin-bottom: 20px;
+}
+
+.ranking{
+    padding-top: 40px;
+}
+
+.image{
+    width: 150px;
+}
+
+.col-3{
+    padding-top: 35px;
+}
+
+.col-5{
+    padding-top: 30px;
+}
+
+.col-2 h1{
+    background-color: rgb(203, 241, 208);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: green;
+    font-weight: bold;
+    font-size:55px
+}
+
+.col-2 .ranking-low{
+    background-color: rgb(241, 203, 203);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    font-size:55px
+}
+
+.detail{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.detail a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.detail a p{ 
+    padding-top: 10px;
+}
+
+.button{
+    padding-left: 50px;
 }
